@@ -1,5 +1,5 @@
 "use client";
-// pages/index.js
+
 import React, { useState } from "react";
 import Layout from "../components/Layout";
 import TaskList from "../components/TaskList";
@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="bg-white rounded-lg shadow-lg flex-col px-16 py-8 text-black">
+      <div className="bg-white rounded-lg shadow-lg w-5/12 justify-center flex-col px-8 py-8 text-black">
         <h1 className="text-2xl justify-center flex font-bold mb-4">
           To-Do App
         </h1>
