@@ -1,9 +1,8 @@
-// components/Layout.js
-import React from 'react';
+import React from "react";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-black text-white h-screen flex flex-col justify-center items-center">
+    <div className=" bg-black flex flex-col h-screen items-center justify-center">
       {children}
     </div>
   );
