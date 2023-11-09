@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // components/Layout.js
+=======
+>>>>>>> 9967ac00914e8bd281db862633fbde9922753c03
 import React from "react";
 
 const Layout = ({ children }) => {
